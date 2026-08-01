@@ -24,6 +24,7 @@ pnpm-lock.yaml
 *.sublime-workspace
 .atom/
 
+
 # Build & dist
 dist/
 build/
@@ -60,3 +61,5 @@ coverage/
 # Misc
 .eslintcache
 .stylelintcache
+
+suggestions.md
