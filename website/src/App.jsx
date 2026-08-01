@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-[#2d1b4e]">
-      <div className="bg-[] text-white font-inter bg-cover bg-center h-screen mt-0">
+      <div className="bg-[url('/book.jpg')] text-white font-inter bg-cover bg-center h-screen mt-0">
         <div className="absolute inset-0 bg-black opacity-50" />
         <nav className="flex justify-between mx-10 py-8 relative z-10">
           <div className="logo text-2xl font-sora">Sophia</div>
@@ -15,7 +15,7 @@ function App() {
         </nav>
 
         <main className="relative z-10 mx-30 text-center flex flex-col justify-center md:h-screen">
-          <div className="hero text-center -mt-50">
+          <div className="hero text-center -mt-60">
             <h1 className="text-3xl font-sora">
               Sophia - The Bookstore for Your Community
             </h1>
@@ -29,8 +29,8 @@ function App() {
         </main>
       </div>
 
-      <section className="mx-10 h-screen text-white lg:flex align-middle items-center gap-20 justify-between p-5 px-45 bg-[#7c3aed]">
-        <div className="left w-1/2">
+      <section className="mx-10 xlg:h-screen sm:h-auto py-15 md:flex text-white align-middle items-center gap-20 justify-between p-5 px-45 bg-[#7c3aed]">
+        <div className="left lg:w-1/2 sm:w-full">
           <h1 className="text-2xl center font-sora">What is Sophia ?</h1>
           <br />
           <p>
@@ -54,7 +54,7 @@ function App() {
             books, and a beautiful way to share them.
           </p>
         </div>
-        <div className="right w-1/2 font-inter">
+        <div className="right lg:w-1/2 sm:full font-inter">
           <div className="card w-full h-120 bg-[url('/books.jpg')] bg-cover bg-center ">
 
           </div>
