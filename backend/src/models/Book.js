@@ -26,3 +26,7 @@ const bookSchema = new mongoose.Schema({
         required: true
     }
 }, {timestamps: true})
+
+const Book =  mongoose.model("Book", bookSchema)
+
+export default Book
